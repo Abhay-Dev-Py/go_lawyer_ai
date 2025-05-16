@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1568594369",
+    "project_id": "golawyer-3615c",
+    "storage_bucket": "golawyer-3615c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1568594369:android:7bc211f3096a622b6d3740",
+        "android_client_info": {
+          "package_name": "com.example.go_lawyer_ai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8uL-7DMCQ6kfL1dJ0Av9hfHkRPoxLD08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

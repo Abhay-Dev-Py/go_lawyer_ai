@@ -1,0 +1,48 @@
+name: go_lawyer_ai
+description: "AI-Based Legal Chatbot App"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # State Management
+  get: ^4.6.6
+  
+  # Firebase
+  firebase_core: ^2.27.1
+  firebase_auth: ^4.17.9
+  cloud_firestore: ^4.15.9
+  
+  # UI Components
+  google_fonts: ^6.2.1
+  flutter_spinkit: ^5.2.0
+  cached_network_image: ^3.3.1
+  
+  # HTTP Client
+  dio: ^5.4.1
+  
+  # Utils
+  intl: ^0.19.0
+  logger: ^2.0.2+1
+  flutter_dotenv: ^5.1.0
+  
+  # Icons and UI
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - .env
